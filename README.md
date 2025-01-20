@@ -23,7 +23,7 @@ Kod ESPHome jest zbudowany na bazie Voice Assistant PE. Wszystkie parametey są 
 <img width="618" alt="image" src="https://github.com/user-attachments/assets/da9301a7-b4f6-4a19-901c-776bcd00e4a8" />
 
 # 6. Efekt i podsumowanie
-Aktualna wersja działa bardzo dobrze nawet z 10 metrów. Zakłucenia takie jak włączony TV nie przeszkadza, ale jeśli z TV lecą dialogi to urządzenie dłużej nasłuchuje (finalnie dobrze reaguje na nasz tekst, a nie dialogi z TV)
+Aktualna wersja działa bardzo dobrze nawet z 10 metrów. Zakłócenia takie jak włączony TV nie przeszkadza, ale jeśli z TV lecą dialogi to urządzenie dłużej nasłuchuje (finalnie dobrze reaguje na nasz tekst, a nie dialogi z TV)
 ![IMG_9459](https://github.com/user-attachments/assets/95178788-29d4-473c-92dd-2e7483edc058)
 
 ![IMG_9460](https://github.com/user-attachments/assets/0c09ec26-d581-492c-8a72-d44eafb48b19)
