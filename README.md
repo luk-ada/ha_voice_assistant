@@ -10,6 +10,7 @@
 - Gniazdo zasilania USV-C -> https://aliexpress.com/item/1005007469691687.html
 
 # 2. Połącznie
+Najwygodniej będzie sugerować się tym co jest w kodzie ESPHome (jedne z pierwszych linii kodu i komentarzami), ale jak ktoś woli to poniżej schemat rysunkowy
 ![output-onlinepngtools](https://github.com/user-attachments/assets/ad5f3680-0635-48ea-a07e-813f39d14be7)
 
 # 3. Obudowa
@@ -32,6 +33,8 @@ Aktualna wersja działa bardzo dobrze nawet z 10 metrów. Zakłucenia takie jak 
 ![IMG_9463](https://github.com/user-attachments/assets/6f9fe57a-90d1-4e92-8b4f-064b80ec22da)
 
 ![IMG_9464](https://github.com/user-attachments/assets/ac6c1fdf-078f-45b4-bea9-d3d83eec440f)
+
+# 7. Wideo działania 1-10 metrów oraz drugie wideo z zakłuceniami w postaci włączonego TV
 
 [![Watch the video](https://img.youtube.com/vi/tZ6E8j-09wc/maxresdefault.jpg)](https://youtu.be/tZ6E8j-09wc)
 
