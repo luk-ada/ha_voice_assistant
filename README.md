@@ -1,16 +1,16 @@
 # Asystant głosowy na bazie Voice Assistant PE
 
 # 1. Hardware
-- ESP32 S3 16MB -> https://pl.aliexpress.com/item/1005005051294262.html
-- 2x Max98357 -> https://pl.aliexpress.com/item/1005007008134910.html
-- INMP441 -> https://pl.aliexpress.com/item/1005007096781008.html
-- LED Ring 12 LEDs -> https://pl.aliexpress.com/item/1005007095317230.html
-- Głośnik 10W 4ohm dla wysokich tonów -> https://pl.aliexpress.com/item/1005007917972560.html
-- Głośnik 10W 4ohm dla niskich tonów -> https://pl.aliexpress.com/item/1005006867491648.html
-- Gniazdo zasilania USV-C -> https://pl.aliexpress.com/item/1005007469691687.html
+- ESP32 S3 16MB -> https://aliexpress.com/item/1005005051294262.html
+- 2x Max98357 -> https://aliexpress.com/item/1005007008134910.html
+- INMP441 -> https://aliexpress.com/item/1005007096781008.html
+- LED Ring 12 LEDs -> https://aliexpress.com/item/1005007095317230.html
+- Głośnik 10W 4ohm dla wysokich tonów -> https://aliexpress.com/item/1005007917972560.html
+- Głośnik 10W 4ohm dla niskich tonów -> https://aliexpress.com/item/1005006867491648.html
+- Gniazdo zasilania USV-C -> https://aliexpress.com/item/1005007469691687.html
 
 # 2. Połącznie
-![Diagram bez tytułu drawio](https://github.com/user-attachments/assets/f2bd5215-939a-458b-85e2-fd8fd9ef8820)
+![output-onlinepngtools](https://github.com/user-attachments/assets/ad5f3680-0635-48ea-a07e-813f39d14be7)
 
 # 3. Obudowa
 Pliki .stl dostępny w repozytorium. Osobiście drukowałem z funkcją FuzzySkin, aby nie było widać warstw
@@ -33,4 +33,7 @@ Aktualna wersja działa bardzo dobrze nawet z 10 metrów. Zakłucenia takie jak 
 
 ![IMG_9464](https://github.com/user-attachments/assets/ac6c1fdf-078f-45b4-bea9-d3d83eec440f)
 
+[![Watch the video](https://img.youtube.com/vi/tZ6E8j-09wc/maxresdefault.jpg)](https://youtu.be/tZ6E8j-09wc)
+
+[![Watch the video](https://img.youtube.com/vi/Pw-N4Iyd6_c/maxresdefault.jpg)](https://youtu.be/Pw-N4Iyd6_c)
 
