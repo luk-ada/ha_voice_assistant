@@ -1,4 +1,4 @@
-# Asystant głosowy na bazie Voice Assistant PE
+# Asystent głosowy na bazie Voice Assistant PE
 
 # 1. Hardware
 - ESP32 S3 16MB -> https://aliexpress.com/item/1005005051294262.html
@@ -7,7 +7,7 @@
 - LED Ring 12 LEDs -> https://aliexpress.com/item/1005007095317230.html
 - Głośnik 10W 4ohm dla wysokich tonów -> https://aliexpress.com/item/1005007917972560.html
 - Głośnik 10W 4ohm dla niskich tonów -> https://aliexpress.com/item/1005006867491648.html
-- Gniazdo zasilania USV-C -> https://aliexpress.com/item/1005007469691687.html
+- Gniazdo zasilania USB-C -> https://aliexpress.com/item/1005007469691687.html
 
 # 2. Połącznie
 Najwygodniej będzie sugerować się tym co jest w kodzie ESPHome (jedne z pierwszych linii kodu i komentarzami), ale jak ktoś woli to poniżej schemat rysunkowy
@@ -34,7 +34,7 @@ Aktualna wersja działa bardzo dobrze nawet z 10 metrów. Zakłucenia takie jak 
 
 ![IMG_9464](https://github.com/user-attachments/assets/ac6c1fdf-078f-45b4-bea9-d3d83eec440f)
 
-# 7. Wideo działania 1-10 metrów oraz drugie wideo z zakłuceniami w postaci włączonego TV
+# 7. Wideo działania 1-10 metrów oraz drugie wideo z zakłóceniami w postaci włączonego TV
 
 [![Watch the video](https://img.youtube.com/vi/tZ6E8j-09wc/maxresdefault.jpg)](https://youtu.be/tZ6E8j-09wc)
 
