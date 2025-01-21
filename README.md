@@ -8,6 +8,7 @@
 - Głośnik 10W 4ohm dla wysokich tonów -> https://aliexpress.com/item/1005007917972560.html
 - Głośnik 10W 4ohm dla niskich tonów -> https://aliexpress.com/item/1005006867491648.html
 - Gniazdo zasilania USB-C -> https://aliexpress.com/item/1005007469691687.html
+- Materiał dla maskownicy frontu np. -> https://allegro.pl/oferta/11641954458
 
 # 2. Połącznie
 Najwygodniej będzie sugerować się tym co jest w kodzie ESPHome (jedne z pierwszych linii kodu i komentarzami), ale jak ktoś woli to poniżej schemat rysunkowy
@@ -33,6 +34,9 @@ Aktualna wersja działa bardzo dobrze nawet z 10 metrów. Zakłócenia takie jak
 ![IMG_9463](https://github.com/user-attachments/assets/6f9fe57a-90d1-4e92-8b4f-064b80ec22da)
 
 ![IMG_9464](https://github.com/user-attachments/assets/ac6c1fdf-078f-45b4-bea9-d3d83eec440f)
+
+![84A6D293-C8E8-4F24-B70F-969A713F1935_1_105_c](https://github.com/user-attachments/assets/4a830cac-edf9-4ba4-bfde-567adc4419e5)
+
 
 # 7. Wideo działania 1-10 metrów oraz drugie wideo z zakłóceniami w postaci włączonego TV
 
