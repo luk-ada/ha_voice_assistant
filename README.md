@@ -6,12 +6,17 @@
 - INMP441 -> https://aliexpress.com/item/1005007096781008.html
 - LED Ring 12 LEDs -> https://aliexpress.com/item/1005007095317230.html
 - Głośnik 10W 4ohm dla wysokich tonów -> https://aliexpress.com/item/1005007917972560.html
-- Głośnik 10W 4ohm dla niskich tonów -> https://aliexpress.com/item/1005006867491648.html
+- Głośnik 3W 4ohm dla niskich tonów -> https://aliexpress.com/item/1005006867491648.html
 - Gniazdo zasilania USB-C -> https://aliexpress.com/item/1005007469691687.html
 - Materiał dla maskownicy frontu np. -> https://allegro.pl/oferta/11641954458
 
+AKTUALIZACJA - GŁOŚNIK 3W 4OHM DAJE LEPSZE NIŻSZE TONY
+
 # 2. Połącznie
 Najwygodniej będzie sugerować się tym co jest w kodzie ESPHome (jedne z pierwszych linii kodu i komentarzami), ale jak ktoś woli to poniżej schemat rysunkowy
+
+AKTUALIZACJA - MOŻEMY POŁĄCZYĆ DODATKOWO GAIN DO GND, ABY UZYSKAĆ WIĘKSZE WZMOCNIENIE DŹWIĘKU
+
 ![output-onlinepngtools](https://github.com/user-attachments/assets/ad5f3680-0635-48ea-a07e-813f39d14be7)
 
 # 3. Obudowa
