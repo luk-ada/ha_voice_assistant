@@ -5,8 +5,8 @@
 - 2x Max98357 -> https://aliexpress.com/item/1005007008134910.html
 - INMP441 -> https://aliexpress.com/item/1005007096781008.html
 - LED Ring 12 LEDs -> https://aliexpress.com/item/1005007095317230.html
-- Speaker 10W 4ohm dla wysokich tonów -> https://aliexpress.com/item/1005007917972560.html
-- Speaker 3W 4ohm dla niskich tonów -> https://aliexpress.com/item/32593991938.html
+- Speaker 10W 4ohm for high tones -> https://aliexpress.com/item/1005007917972560.html
+- Speaker 3W 4ohm for low tones -> https://aliexpress.com/item/32593991938.html
 - Power socket USB-C -> https://aliexpress.com/item/1005007469691687.html
 - Fabric for front cover np. -> https://allegro.pl/oferta/11641954458
 
