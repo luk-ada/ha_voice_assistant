@@ -41,6 +41,10 @@ esphome:
       # Run the script to refresh the LED status
       - script.execute: control_leds
       - delay: 1s
+      - script.execute:
+          id: play_sound
+          priority: true
+          sound_file: !lambda return id(wake_word_triggered_sound);
 
       # If after 10 minutes, the device is still initializing (It did not yet connect to Home Assistant), turn off the init_in_progress variable and run the script to refresh the LED status
       - delay: 10min
