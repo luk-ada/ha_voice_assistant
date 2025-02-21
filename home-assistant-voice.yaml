@@ -1012,6 +1012,7 @@ voice_assistant:
     - script.execute: control_leds
   # When the voice assistant ends ...
   on_end:
+    - micro_wake_word.start:
     - wait_until:
         not:
           voice_assistant.is_running:
