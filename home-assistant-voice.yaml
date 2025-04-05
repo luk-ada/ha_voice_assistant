@@ -926,6 +926,15 @@ media_player:
       - id: wake_word_triggered_sound
         file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/wake_word_triggered.flac
 
+external_components:
+  - source:
+      type: git
+      url: https://github.com/esphome/home-assistant-voice-pe
+      ref: dev
+    components:
+      - voice_assistant
+    refresh: 0s
+
 micro_wake_word:
   id: mww
   models:
@@ -1012,7 +1021,6 @@ voice_assistant:
     - script.execute: control_leds
   # When the voice assistant ends ...
   on_end:
-    - micro_wake_word.start:
     - wait_until:
         not:
           voice_assistant.is_running:
@@ -1021,6 +1029,7 @@ voice_assistant:
         id: media_mixing_input
         decibel_reduction: 0
         duration: 1.0s
+    - micro_wake_word.start:
     # If the end happened because of an error, let the error phase on for a second
     - if:
         condition:
