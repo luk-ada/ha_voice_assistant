@@ -926,6 +926,15 @@ media_player:
       - id: wake_word_triggered_sound
         file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/wake_word_triggered.flac
 
+external_components:
+  - source:
+      type: git
+      url: https://github.com/esphome/home-assistant-voice-pe
+      ref: dev
+    components:
+      - voice_assistant
+    refresh: 0s
+
 micro_wake_word:
   id: mww
   models:
@@ -1010,12 +1019,24 @@ voice_assistant:
   on_tts_start:
     - lambda: id(voice_assistant_phase) = ${voice_assist_replying_phase_id};
     - script.execute: control_leds
+    # Stop wake word detection to save memory for assist_satellite.start_conversation
+    - if:
+        condition:
+          micro_wake_word.is_running:
+        then:
+          - micro_wake_word.stop:
   # When the voice assistant ends ...
   on_end:
-    - micro_wake_word.start:
     - wait_until:
         not:
           voice_assistant.is_running:
+    # Start wake word detection only if not already running
+    - if:
+        condition:
+          not:
+            micro_wake_word.is_running:
+        then:
+          - micro_wake_word.start:
     # Stop ducking audio.
     - mixer_speaker.apply_ducking:
         id: media_mixing_input
